@@ -8,8 +8,9 @@ router.post("/sendSMS", async (req, res, next) => {
 	/*
         for sending sms , use TeleSignSdk package (module) and use its trial account 
     */
+   //test
 
-	const receiverPhoneNo = req.body.phoneNo; // get the reciever's phone no in request body to a variav
+	const receiverPhoneNo = req.body.phoneNo; // get the reciever's phone no in request body to a variavk
 
 	try {
 		const customerId = "67D18FB0-CB55-4314-89AE-6B5493C10B65";
